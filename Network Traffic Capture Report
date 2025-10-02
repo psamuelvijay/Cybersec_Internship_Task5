@@ -1,0 +1,39 @@
+Network Traffic Capture Report
+Capture Date: October 2, 2025
+Capture Duration: Approximately 1 minute
+Network Interface: Wi-Fi
+Total Packets Captured: 50 (approximate)
+
+Protocols Identified and Summary
+DNS (Domain Name System)
+
+Number of packets: 28
+
+DNS handles domain name resolution, translating website names into IP addresses. DNS queries were triggered during web browsing.
+
+ARP (Address Resolution Protocol)
+
+Number of packets: 2
+
+ARP resolves MAC addresses corresponding to IP addresses on the local network, facilitating communication within the LAN.
+
+TLS (Transport Layer Security)
+
+Number of packets: 20
+
+TLS ensures encrypted communication between client and server, seen in HTTPS traffic during web browsing, securing data transmission.
+
+Packet Analysis Details
+Traffic was generated via ICMP ping requests and web browsing (HTTPS websites).
+
+DNS packets show domain lookups needed to access websites like Wikipedia.
+
+ARP packets handled local network MAC address resolution.
+
+TLS packets represent encrypted HTTPS traffic, confirming secure browsing.
+
+No unencrypted HTTP packets were visibly captured, as modern websites use HTTPS by default.
+
+File Name: network_capture.pcap
+
+This capture represents basic network communication protocols observed on a live network interface during typical internet browsing and ping operations.
